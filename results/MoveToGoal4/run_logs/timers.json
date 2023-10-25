@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1698161248",
+        "python_version": "3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "H:\\Progetti\\venvIA\\venv\\Scripts\\mlagents-learn config/moveToGoal.yaml --initialize-from=MoveToGoal --run-id=MoveToGoal4",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.1.0+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1698161278"
+    },
+    "total": 29.508421300000002,
+    "count": 1,
+    "self": 0.005377900000002711,
+    "children": {
+        "run_training.setup": {
+            "total": 0.09669490000000014,
+            "count": 1,
+            "self": 0.09669490000000014
+        },
+        "TrainerController.start_learning": {
+            "total": 29.4063485,
+            "count": 1,
+            "self": 0.0003909000000028584,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 29.405950199999996,
+                    "count": 1,
+                    "self": 29.405950199999996
+                },
+                "trainer_threads": {
+                    "total": 7.000000010748408e-07,
+                    "count": 1,
+                    "self": 7.000000010748408e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 6.700000000137152e-06,
+                    "count": 1,
+                    "self": 6.700000000137152e-06
+                }
+            }
+        }
+    }
+}

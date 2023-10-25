@@ -1,0 +1,11 @@
+tensorboard --logdir results
+serve per monitorerare l'andamento dell'addestramento con grafici e altro
+
+mlagents-learn --run-id=MoveToGoal(nome che vuoi)
+serve per far partire il machine learning
+
+mlagents-learn config\moveToGoal.yaml --run-id=TestParameters
+serve per far partire il machine learning con le impostazioni del file YAML utilizzato per definire i parametri e le impostazioni dell'addestramento
+
+mlagents-learn config/moveToGoal.yaml --initialize-from=MoveToGoal(nome di un'allenamento già avvenuto) --run-id=MoveToGoal2 (nuovo allenamento)
+serve per far continuare l'allenamento per il machine learning da un'altro allenamento
