@@ -72,7 +72,4 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # Ignore
-dnnl.lib
-_pywrap_tensorflow_internal.pyd
-torch_cpu.dll
-venv/Lib/site-packages/__pycache__/isympy.cpython-39.pyc
+venv
